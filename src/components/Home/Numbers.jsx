@@ -23,7 +23,7 @@ function Numbers() {
             <div className='relative'>
                 <img
 
-                    src="./src/assets/photos/bg.svg"
+                    src="/photos/bg.svg"
                     alt=""
                     className='md:w-full sm:scale-100 scale-700 h-180 md:h-auto' />
                 <div className='absolute inset-0 flex md:flex-row flex-col gap-y-20 text-2xl md:text-lg gap-x-6 items-center justify-center text-white font-bold tracking-wider'>
@@ -57,15 +57,15 @@ function Numbers() {
                 </div>
 
                 <div className={`md:w-1/3 md:m-auto mt-10 md:pl-0 pl-9 grid grid-cols-3 grid-rows-3 gap-6 ${inView ? motionClassL : 'opacity-0'}`}>
-                    <img src="./src/assets/photos/apple.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/google.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/hua.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/hp.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/dell.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/intel.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/acer.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/leno.svg" alt="" className='size-12' />
-                    <img src="./src/assets/photos/asus.svg" alt="" className='size-12' />
+                    <img src="/photos/apple.svg" alt="" className='size-12' />
+                    <img src="/photos/google.svg" alt="" className='size-12' />
+                    <img src="/photos/hua.svg" alt="" className='size-12' />
+                    <img src="/photos/hp.svg" alt="" className='size-12' />
+                    <img src="/photos/dell.svg" alt="" className='size-12' />
+                    <img src="/photos/intel.svg" alt="" className='size-12' />
+                    <img src="/photos/acer.svg" alt="" className='size-12' />
+                    <img src="/photos/leno.svg" alt="" className='size-12' />
+                    <img src="/photos/asus.svg" alt="" className='size-12' />
                 </div>
             </div>
         </div>

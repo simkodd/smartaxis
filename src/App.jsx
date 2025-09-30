@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='bg-white h-max max-w-full overflow-x-hidden'>
      <NavBar />
-      <ScrollToTop />   {/* 🔥 buraya ekle */}
+      <ScrollToTop />   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />

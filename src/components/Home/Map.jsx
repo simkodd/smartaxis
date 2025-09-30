@@ -21,7 +21,7 @@ function Map() {
                 <div className='flex items-start justify-center gap-x-4 md:gap-x-20 mt-6 md:mt-2 px-2'>
                     <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
                         <img
-                            src="./src/assets/photos/call.svg"
+                            src="/photos/call.svg"
                             alt=""
                             className=' size-9 border-b-1 border-blue p-1' />
                         <h1 className='text-blue font-semibold text-[10px] md:text-sm'>+971 58 502 6002</h1>
@@ -29,7 +29,7 @@ function Map() {
 
                     <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
                         <img
-                            src="./src/assets/photos/mail.svg"
+                            src="/photos/mail.svg"
                             alt=""
                             className=' size-9 border-b-1 border-blue p-1' />
                         <h1 className='text-blue font-semibold text-[10px] md:text-sm'>ContactUs@SmartAxis.net</h1>
@@ -37,7 +37,7 @@ function Map() {
 
                     <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
                         <img
-                            src="./src/assets/photos/loc.svg"
+                            src="/photos/loc.svg"
                             alt=""
                             className=' size-9 border-b-1 border-blue p-1' />
                         <h1 className='text-blue font-semibold text-[10px] md:text-sm w-30 md:w-40'>N 4 ,Industrial Area 2 ,Sharjah ,UAE</h1>
@@ -45,7 +45,7 @@ function Map() {
 
                     <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
                         <img
-                            src="./src/assets/photos/time.svg"
+                            src="/photos/time.svg"
                             alt=""
                             className=' size-9 border-b-1 border-blue p-1' />
                         <h1 className='text-blue font-semibold text-[10px] md:text-sm w-20 md:w-25'>Opening Time 12:00 - 22:00</h1>

@@ -16,17 +16,17 @@ function Why() {
                 <div className='flex gap-x-1 mt-14'>
                     <img
                         ref={ref}
-                        src="./src/assets/photos/sag.jpeg"
+                        src="/photos/sag.jpg"
                         alt="SmartAxis"
                         className={`size-28 ${inView ? motionClassR : 'opacity-0'}`} />
                     <img
                         ref={ref}
-                        src="./src/assets/photos/orta.jpg"
+                        src="/photos/orta.jpg"
                         alt="SmartAxis"
                         className={`size-28 ${inView ? motionClassR : 'opacity-0'}`} />
                     <img
                         ref={ref}
-                        src="./src/assets/photos/sol.jpeg"
+                        src="/photos/sol.jpg"
                         alt="SmartAxis"
                         className={`size-28 ${inView ? motionClassR : 'opacity-0'}`} />                </div>
                 <p className='text-grey font-semibold text-[9px] pt-10 w-86'>At Smart Axis, we redefine the used electronics market. We provide high-quality, high-performance laptops and PCs, with a strong commitment to professionalism and trust in every product and service. Your satisfaction is our guarantee.</p>
@@ -37,7 +37,7 @@ function Why() {
                 <div className='flex-col mt-10 space-y-10'>
                     <div className='w-80'>
                         <img 
-                        src="./src/assets/photos/quality.svg" 
+                        src="/photos/quality.svg" 
                         alt="" 
                         className='m-1 mt-0 size-5 inline-block ' />
                         <span className='text-blue font-semibold '> Premium Quality</span>
@@ -45,7 +45,7 @@ function Why() {
                     </div>
                     <div className='w-80'>
                         <img 
-                        src="./src/assets/photos/support.svg" 
+                        src="/photos/support.svg" 
                         alt="SmartAxis" 
                         className='m-1 mt-0 size-6 inline-block' />
                         <span className='text-blue font-semibold'> Dedicated After-Sales Support</span>
@@ -53,7 +53,7 @@ function Why() {
                     </div>
                     <div className='w-80'>
                         <img 
-                        src="./src/assets/photos/options.svg" 
+                        src="/photos/options.svg" 
                         alt="SmartAxis" className='m-1 mt-0 size-6 inline-block' />
                         <span 
                         className='text-blue font-semibold'> A Wide Range of Options</span>

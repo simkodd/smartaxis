@@ -14,7 +14,7 @@ const { ref, inView } = useInView({
     return (
         <div className='h-fit flex w-full'>
             <div ref={ref} className={`w-1/2 ${inView ? motionClassR : 'opacity-0'}`}>
-                <img src="./src/assets/photos/plan.jpg" alt="" className='size-104 '/>
+                <img src="/photos/plan.jpg" alt="" className='size-104 '/>
             </div>
 
             <div ref={ref} className={`w-1/2 bg-[#72A93E] size-104 ${inView ? motionClassL :'opacity-0'}`}>
@@ -24,19 +24,19 @@ const { ref, inView } = useInView({
                 </div>
                 <div className='grid grid-cols-2 grid-rows-2 md:pl-10 gap-3 md:pr-5 px-7'> 
                     <div className='bg-blue md:p-5 p-2 text-center flex flex-col items-center hover:scale-110 duration-500 hover:shadow-[0_0_27px_2px_rgba(238,239,239,0.9)]'>
-                        <img src="./src/assets/photos/puzzle.svg" alt="Customizing" className='md:size-7 size-5'/>
+                        <img src="/photos/puzzle.svg" alt="Customizing" className='md:size-7 size-5'/>
                         <p className='text-white font-semibold text-[11px] md:text-sm py-2'>Custom Solutions</p>
                     </div>
                     <div className='bg-blue md:p-5 p-2 text-center flex flex-col items-center hover:scale-110 duration-500 hover:shadow-[0_0_27px_2px_rgba(238,239,239,0.9)]'>
-                        <img src="./src/assets/photos/accur.svg" alt="Customizing" className='md:size-7 size-5'/>
+                        <img src="/photos/accur.svg" alt="Customizing" className='md:size-7 size-5'/>
                         <p className='text-white font-semibold text-[11px] md:text-sm py-2'>Quality Assurance</p>
                     </div>
                     <div className='bg-blue md:p-5 p-2 text-center flex flex-col items-center hover:scale-110 duration-500 hover:shadow-[0_0_27px_2px_rgba(238,239,239,0.9)]'>
-                        <img src="./src/assets/photos/sparkle.svg" alt="Customizing" className='md:size-7 size-5'/>
+                        <img src="/photos/sparkle.svg" alt="Customizing" className='md:size-7 size-5'/>
                         <p className='text-white font-semibold text-[11px] md:text-sm py-2'>Diverse Portfolio</p>
                     </div>
                     <div className='bg-blue md:p-5 p-2 text-center flex flex-col items-center hover:scale-110 duration-500 hover:shadow-[0_0_27px_2px_rgba(238,239,239,0.9)]'>
-                        <img src="./src/assets/photos/headset.svg" alt="Customizing" className='md:size-7 size-5'/>
+                        <img src="/photos/headset.svg" alt="Customizing" className='md:size-7 size-5'/>
                         <p className='text-white font-semibold  text-[11px] md:text-sm py-2'>Customer Support</p>
                     </div>
                 </div>

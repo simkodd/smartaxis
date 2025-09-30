@@ -10,7 +10,7 @@ function NavBar() {
     <div>
       <nav className='fixed bg-white w-full top-0 flex justify-between md:pl-4 md:pr-40 px-2 z-20 h-10 items-center '>
         <div className=''>
-          <img src="/src/assets/photos/logo.svg" alt="SmartAxis Logo" className='inline-block size-6 pb-1' />
+          <img src="/photos/logo.svg" alt="SmartAxis Logo" className='inline-block size-6 pb-1' />
           <p className='text-blue font-inter font-black text-sm inline-block p-1  '><span className='text-green '>Smart</span>
             Axis</p>
         </div>

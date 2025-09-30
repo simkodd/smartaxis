@@ -21,43 +21,43 @@ const { ref, inView } = useInView({
         </div>
         <div className='flex flex-wrap gap-3 items-senter justify-center'>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl w-40 h-35 ${inView ? motionClassR : 'opacity-0'}`}>
-                <img src="./src/assets/photos/lap.svg" 
+                <img src="/photos/lap.svg" 
                 alt="Laptop" 
                 className='size-17' />
                 <p className='font-semibold text-blue '>Laptop</p>
             </div>
             <div ref={ref} className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 ${inView ? motionClassL : 'opacity-0'}`}>
-                <img src="./src/assets/photos/aio.svg" 
+                <img src="/photos/aio.svg" 
                 alt="Laptop" 
                 className='size-17' />
                 <p className='font-semibold text-blue '>AIO</p>
             </div>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 ${inView ? motionClassR : 'opacity-0'}`}>
-                <img src="./src/assets/photos/pc.svg" 
+                <img src="/photos/pc.svg" 
                 alt="Laptop" 
                 className='size-17 ' />
                 <p className='font-semibold text-blue '>PC</p>
             </div>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center gap-y-6 p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 ${inView ? motionClassL : 'opacity-0'}`}>
-                <img src="./src/assets/photos/pos.svg" 
+                <img src="/photos/pos.svg" 
                 alt="Laptop" 
                 className='w-7 ' />
                 <p className='font-semibold text-blue '>POS Machine</p>
             </div>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 ${inView ? motionClassR : 'opacity-0'}`}>
-                <img src="./src/assets/photos/mon.svg" 
+                <img src="/photos/mon.svg" 
                 alt="Laptop" 
                 className='size-17' />
                 <p className='font-semibold text-blue '>Monitor</p>
             </div>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 ${inView ? motionClassL : 'opacity-0'}`}>
-                <img src="./src/assets/photos/poj.svg" 
+                <img src="/photos/poj.svg" 
                 alt="Laptop" 
                 className='size-17' />
                 <p className='font-semibold text-blue '>Projector</p>
             </div>
             <div className={`hover:scale-105 duration-500 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl w-40 h-35 ${inView ? motionClassR : 'opacity-0'}`}>
-                <img src="./src/assets/photos/mod.svg" 
+                <img src="/photos/mod.svg" 
                 alt="Laptop" 
                 className='size-17' />
                 <p className='font-semibold text-blue '>Modem</p>

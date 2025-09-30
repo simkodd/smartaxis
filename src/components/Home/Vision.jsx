@@ -22,22 +22,21 @@ function Vision() {
             <div ref={ref} className='flex flex-wrap gap-y-2 gap-x-2 items-center justify-center pt-10'>
                 <div ref={ref} className={`flex flex-col w-38 ${inView ? motionClassR : 'opacity-0'}`}>
                     <img
-                        src="./src/assets/photos/lap2.jpg"
+                        src="/photos/lap2.jpg"
                         alt="photo1"
                         className=' w-full border-2 border-white rounded-xl shadow-2xl shadow-blue ' />
                 </div>
                 <div ref={ref} className={`flex flex-col w-38 md:h-40 sm:justify-start ${inView ? motionClassR : 'opacity-0'}`}>
                     <img
-                        src="./src/assets/photos/lap.jpeg"
+                        src="/photos/lap.jpg"
                         alt="photo1"
                         className=' w-full border-2 border-white rounded-xl shadow-2xl shadow-blue  ' />
                 </div>
                 <div ref={ref} className={`flex flex-col w-38 ${inView ? 'motion-preset-fade motion-duration-2000' : 'opacity-0'}`}>
                     <video
-                        src="./src/assets/photos/10.mp4"
+                        src="/photos/10.mp4"
                         alt="laptop video"
 
-                        // Video ayarları: Otomatik başla, döngüde oyna, sesini kapat (tarayıcı zorunluluğu)
                         autoPlay
                         loop
                         muted
@@ -48,13 +47,13 @@ function Vision() {
                 </div>
                 <div ref={ref} className={`flex flex-col w-38 md:h-40 sm:justify-start ${inView ? motionClassL : 'opacity-0'}`}>
                     <img
-                        src="./src/assets/photos/lap3.jpg"
+                        src="/photos/lap3.jpg"
                         alt="photo1"
                         className=' w-full border-2 border-white rounded-xl shadow-2xl shadow-blue  ' />
                 </div>
                 <div ref={ref} className={`flex flex-col w-38 ${inView ? motionClassL : 'opacity-0'}`}>
                     <img
-                        src="./src/assets/photos/lap4.jpg"
+                        src="/photos/lap4.jpg"
                         alt="photo1"
                         className=' w-full border-2 border-white rounded-xl shadow-2xl shadow-blue  ' />
                 </div>

@@ -23,15 +23,15 @@ function Contact() {
           <p className='text-grey text-[10px] mt-5'>You can contact or visit us in our office from Monday to Friday from 12:00 - 22:00</p>
           <div className='flex flex-col gap-y-10 mt-10 text-blue font-medium'>
             <div className='flex'>
-              <img src="./src/assets/photos/call.svg" alt="call" className='size-5'/>
+              <img src="/photos/call.svg" alt="call" className='size-5'/>
               <p className='pl-2'>+971 58 502 6002</p>
             </div>
             <div className='flex'>
-              <img src="./src/assets/photos/mail.svg" alt="call" className='size-5' />
+              <img src="/photos/mail.svg" alt="call" className='size-5' />
               <p className='pl-2'>ContactUs@SmartAxis.net</p>
             </div>
             <div className='flex'>
-              <img src="./src/assets/photos/loc.svg" alt="call" className='size-5' />
+              <img src="/photos/loc.svg" alt="call" className='size-5' />
               <p className='pl-2'>N 4 ,Industrial Area 2 ,Sharjah ,UAE</p>
             </div>
           </div>

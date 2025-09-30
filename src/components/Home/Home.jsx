@@ -33,7 +33,7 @@ function Home() {
                     </Link>
 
                 </div>
-                <img src="./src/assets/photos/first.svg" alt="Laptops" className='md:w-1/2 my-10
+                <img src="/photos/first.svg" alt="Laptops" className='md:w-1/2 my-10
             motion-scale-in-[0.1] motion-translate-x-in-[40%] motion-translate-y-in-[0%] motion-rotate-in-[-30deg] motion-duration-[4s] motion-duration-[2.34s]/rotate' />
 
             </div>

@@ -19,7 +19,7 @@ function AboutUs() {
     <div className='h-fit'>
       <div className='relative'>
         <img
-          src="./src/assets/photos/bgA.svg"
+          src="/photos/bgA.svg"
           alt="background"
           className='w-full scale-350 md:scale-100' />
       </div>
@@ -30,7 +30,7 @@ function AboutUs() {
 
       <div className='flex w-full items-start mt-40 md:mt-0'>
         <div ref={ref} className ={`w-1/2 md:p-12 p-4 ${inView ? motionClassR : 'opacity-0'}`}>
-          <img src="./src/assets/photos/shake.jpg" alt="" className='' />
+          <img src="/photos/shake.jpg" alt="" className='' />
           <div className='font-semibold mt-4'>
             <p className='text-green md:text-xl md:tracking-wider'><span className='border-blue border-b-1 pb-2'>Vis</span>ion, Mission & Values</p>
             <p className='text-grey text-[12px] pt-5'>Our vision is to redefine the global market for refurbished technology, making high-performance electronics accessible without compromise on quality. <br /> Our mission is to provide meticulously inspected, top-tier devices and build lasting trust with every customer, from individual buyers to wholesale partners. <br /> We operate with a strong commitment to core values like integrity and quality, ensuring every product and service reflects our dedication to excellence and client satisfaction.</p>
@@ -38,7 +38,7 @@ function AboutUs() {
         </div>
 
         <div ref={ref} className={`w-1/2 md:p-12 p-4 ${inView ? motionClassL : 'opacity-0'}`}>
-          <img src="./src/assets/photos/office.jpg" alt="" />
+          <img src="/photos/office.jpg" alt="" />
           <div className='font-semibold mt-4'>
             <p className='text-green md:text-xl md:tracking-wider'><span className='border-blue border-b-1 pb-2'>His</span>tory</p>
             <p className='text-grey text-[12px] pt-5'>Founded in 2017, SmartAxis began as a small venture in Egypt, built from the ground up with passion and an unwavering commitment to quality. Through years of dedication and hard work, we grew our operations and quickly established a strong local presence. <br /> Recognizing an opportunity for broader growth, we made a strategic move to the UAE, where our journey continued with renewed energy. This expansion marked a significant milestone, allowing us to build on our foundation and serve a wider market.</p>

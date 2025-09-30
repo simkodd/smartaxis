@@ -13,26 +13,22 @@ function Latest() {
     const motionClassT = "motion-translate-x-in-[0%] motion-translate-y-in-[-160%] motion-duration-3000";
 
     const gridItems = [
-        // 10. öğe hariç hepsi 'image'
-        { id: 1, src: "./src/assets/photos/1.jpg", span: "1x1", type: 'image' }, 
-        { id: 2, src: "./src/assets/photos/2.jpg", span: "1x1", type: 'image' }, 
-        { id: 3, src: "./src/assets/photos/3.jpg", span: "1x1", type: 'image' }, 
+        { id: 1, src: "/photos/1.jpg", span: "1x1", type: 'image' }, 
+        { id: 2, src: "/photos/2.jpg", span: "1x1", type: 'image' }, 
+        { id: 3, src: "/photos/3.jpg", span: "1x1", type: 'image' }, 
         
-        { id: 4, src: "./src/assets/photos/4.jpg", span: "1x2", type: 'image' }, 
-        { id: 5, src: "./src/assets/photos/5.jpg", span: "2x1", type: 'image' }, 
+        { id: 4, src: "/photos/4.jpg", span: "1x2", type: 'image' }, 
+        { id: 5, src: "/photos/5.jpg", span: "2x1", type: 'image' }, 
         
-        { id: 6, src: "./src/assets/photos/6.jpg", span: "1x1", type: 'image' }, 
-        { id: 7, src: "./src/assets/photos/7.jpg", span: "1x1", type: 'image' }, 
+        { id: 6, src: "/photos/6.jpg", span: "1x1", type: 'image' }, 
+        { id: 7, src: "/photos/7.jpg", span: "1x1", type: 'image' }, 
         
-        { id: 8, src: "./src/assets/photos/8.jpg", span: "1x1", type: 'image' }, 
-        { id: 9, src: "./src/assets/photos/9.jpg", span: "1x1", type: 'image' }, 
-        // KRİTİK DEĞİŞİKLİK: 10. Öğe video oldu
-        { id: 10, src: "./src/assets/photos/10.mp4", span: "1x2", type: 'video' }, 
+        { id: 8, src: "/photos/8.jpg", span: "1x1", type: 'image' }, 
+        { id: 9, src: "/photos/9.jpg", span: "1x1", type: 'image' }, 
+        { id: 10, src: "/photos/10.mp4", span: "1x2", type: 'video' }, 
         
-        { id: 11, src: "./src/assets/photos/11.jpg", span: "2x1", type: 'image' }, 
+        { id: 11, src: "/photos/11.jpg", span: "2x1", type: 'image' }, 
     ];
-// <img src="./src/assets/photos/logo.svg" alt="" />
-  // Helper fonksiyonu ile orantıyı belirleyen sınıfı döndür (Önceki çözümdeki gibi)
   const getAspectRatioClasses = (span) => {
     switch (span) {
       case "1x2":
@@ -58,13 +54,10 @@ function Latest() {
                         className={`relative group overflow-hidden shadow-[0_0_20px_1px_rgba(0,0,0,0.6)] hover:scale-108 duration-900 hover:shadow-[0_0_27px_2px_rgba(2,57,122,0.9)] ${getAspectRatioClasses(item.span)}`}
                     >
                         
-                        {/* ORAN HİLESİ İÇİN BOŞ DIV */}
                         <div className="w-full h-0"></div> 
 
-                        {/* İÇERİK KAPSAYICISI: Tamamen orantılı alana yayılır. */}
                         <div className="absolute inset-0">
                             
-                            {/* KOŞULLU RENDERLAMA: Video mu, Görsel mi? */}
                             {item.type === 'video' ? (
                                 <video
                                     src={item.src}
@@ -83,13 +76,12 @@ function Latest() {
                                 />
                             )}
                             
-                            {/* Overlay */}
                             <div
                                 className="absolute inset-0 bg-white opacity-60 flex items-center justify-center p-4 
                                             text-blue transform translate-y-full group-hover:translate-y-0 
                                             transition-transform duration-500 ">
                                 <div className="text-center flex flex-col items-center justify-center">
-                                    <h3 className="text-xl font-bold mb-2 "><img src="./src/assets/photos/logo.svg" className='size-15' alt="" /></h3>
+                                    <h3 className="text-xl font-bold mb-2 "><img src="/photos/logo.svg" className='size-15' alt="" /></h3>
                                     <p className="text-sm font-extrabold text-green ">Smart <span className='text-blue'>Axis</span> </p>
                                 </div>
                             </div>

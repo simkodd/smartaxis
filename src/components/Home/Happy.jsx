@@ -88,7 +88,6 @@ function Happy() {
                     {dots.map((_, index) => (
                         <svg
                             key={index}
-                            // SVG'yi dinamik olarak renklendirir
                             className={`w-4 h-4 cursor-pointer transition-colors duration-200 
                             ${index === activeIndex ? 'text-blue' : 'text-white opacity-20 scale-110 mb-25'}
                         `}
@@ -96,7 +95,6 @@ function Happy() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 10 10" // Standart boyut
                         >
-                            {/* Nokta (Daire) SVG içeriği */}
                             <circle cx="5" cy="5" r="3" fill="currentColor" />
                         </svg>
                     ))}

@@ -18,9 +18,9 @@ const { ref, inView } = useInView({
                 <p ref={ref} className={`text-green text-xl tracking-wider font-semibold ml-10 mt-6 md:mt-0 ${inView ? motionClassT : 'opacity-0'}`}><span className='border-blue border-b-1 pb-2'>How</span> We Work</p>
             </div>
 
-            <div className='grid grid-cols-2 grid-rows-2 md:p-15 p-6 md:gap-x-10 gap-7 md:gap-y-15 bg-[url(./src/assets/photos/how.svg)] bg-cover bg-center m-10'>
+            <div className='grid grid-cols-2 grid-rows-2 md:p-15 p-6 md:gap-x-10 gap-7 md:gap-y-15 bg-[url(/photos/how.svg)] bg-cover bg-center m-10'>
                 <div ref={ref} className={`text-white ${inView ? motionClassR : 'opacity-0'}`}>
-                    <img src="./src/assets/photos/k.svg"
+                    <img src="/photos/k.svg"
                         alt=""
                         className='size-6 inline-block' />
                     <div className= 'inline'>
@@ -29,7 +29,7 @@ const { ref, inView } = useInView({
                 </div></div>
 
                 <div ref={ref} className={`text-white ${inView ? motionClassL : 'opacity-0'}`}>
-                    <img src="./src/assets/photos/s.svg"
+                    <img src="/photos/s.svg"
                         alt=""
                         className='size-6 inline-block' />
                     <span className= 'font-semibold md:tracking-wider p-1'>Step 3: Quality Assurance</span>
@@ -37,7 +37,7 @@ const { ref, inView } = useInView({
                 </div>
 
                 <div ref={ref} className={`text-white ${inView ? motionClassR : 'opacity-0'}`}>
-                    <img src="./src/assets/photos/d.svg"
+                    <img src="/photos/d.svg"
                         alt=""
                         className='w-8 inline-block' />
                     <span className= 'font-semibold md:tracking-wider p-1'>Step 2: Order & Logistics</span>
@@ -45,7 +45,7 @@ const { ref, inView } = useInView({
                 </div>
 
                 <div ref={ref} className={`text-white ${inView ? motionClassL : 'opacity-0'}`}>
-                    <img src="./src/assets/photos/c.svg"
+                    <img src="/photos/c.svg"
                         alt=""
                         className='size-6 inline-block' />
                     <span className= 'font-semibold md:tracking-wider p-1'>Step 4: After-Sales Support</span>
