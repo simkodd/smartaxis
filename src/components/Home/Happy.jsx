@@ -61,7 +61,7 @@ function Happy() {
             </div>
 
             <div className='text-white text-center'>
-                <h1 ref={ref} className={`font-bold text-3xl tracking-wider text-shadow-lg pt-28 ${inView ? motionClassT : 'opacity-0'}`}>Happy Customers</h1>
+                <h1 ref={ref} className={`font-bold text-3xl lg:text-4xl tracking-wider text-shadow-lg pt-28 ${inView ? motionClassT : 'opacity-0'}`}>Happy Customers</h1>
                 <div
                     ref={scrollRef}
                     onScroll={handleScroll}
@@ -69,18 +69,18 @@ function Happy() {
                     className='flex overflow-x-auto overflow-y-hidden scrollbar-hide snap-x snap-mandatory'
                 >
                     <div className='w-full flex-shrink-0 snap-center'>
-                        <h1 className='px-19 md:text-sm text-xl/9 pt-25 pb-12'>The refurbished laptop is fantastic—it performs like new! Their After-Sales Support was quick and professional. I'll definitely be a return customer.</h1>
-                        <p className='font-semibold md:text-sm text-lg tracking-wide'>Yousef M.,<span className='text-blue md:text-[10px] text-sm'> Verified Buyer</span></p>
+                        <h1 className='px-19 md:text-sm text-xl/9 lg:text-lg pt-25 pb-12'>The refurbished laptop is fantastic—it performs like new! Their After-Sales Support was quick and professional. I'll definitely be a return customer.</h1>
+                        <p className='font-semibold md:text-sm text-lg lg:text-base tracking-wide'>Yousef M.,<span className='text-blue md:text-[10px] text-sm'> Verified Buyer</span></p>
                     </div>
 
                     <div className='w-full flex-shrink-0 snap-center'>
-                        <h1 className='px-19 md:text-sm text-xl/9 pt-25 pb-12'>SmartAxis is a reliable partner. Their Order & Logistics are incredibly fast, and every bulk shipment meets our high quality standards. Essential for our business.</h1>
-                        <p className='font-semibold md:text-sm text-lg tracking-wide'>Omar F.,<span className='text-blue md:text-[10px] text-sm'> Procurement Manager</span></p>
+                        <h1 className='px-19 md:text-sm text-xl/9 lg:text-lg pt-25 pb-12'>SmartAxis is a reliable partner. Their Order & Logistics are incredibly fast, and every bulk shipment meets our high quality standards. Essential for our business.</h1>
+                        <p className='font-semibold md:text-sm text-lg lg:text-base tracking-wide'>Omar F.,<span className='text-blue md:text-[10px] text-sm'> Procurement Manager</span></p>
                     </div>
 
                     <div className='w-full flex-shrink-0 snap-center' >
-                        <h1 className='px-19 md:text-sm text-xl/9 pt-25 pb-12'>Found the perfect high-performance PC thanks to their amazing variety of models. The device's Quality Assurance is top-notch. Great value for the price!</h1>
-                        <p className='font-semibold md:text-sm text-lg tracking-wide'>Fahd A.,<span className='text-blue md:text-[10px] text-sm'> Freelance Designer</span></p>
+                        <h1 className='px-19 md:text-sm text-xl/9 lg:text-lg pt-25 pb-12'>Found the perfect high-performance PC thanks to their amazing variety of models. The device's Quality Assurance is top-notch. Great value for the price!</h1>
+                        <p className='font-semibold md:text-sm text-lg lg:text-base tracking-wide'>Fahd A.,<span className='text-blue md:text-[10px] text-sm'> Freelance Designer</span></p>
                     </div>
                 </div>
 

@@ -13,3 +13,13 @@
     --color-grey: #A7A8A8;
     --shadow-ben:'[0_0_35px_20px_rgba(144,199,64,88)]';
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light; 
+  }
+
+  body {
+    background-color: #EEEFEF !important;
+    color: #02397A !important;
+  }
+}

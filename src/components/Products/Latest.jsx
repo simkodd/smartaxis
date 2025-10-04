@@ -13,7 +13,7 @@ function Latest() {
     const motionClassT = "motion-translate-x-in-[0%] motion-translate-y-in-[-160%] motion-duration-3000";
 
     const gridItems = [
-        { id: 1, src: "/photos/1.jpg", span: "1x1", type: 'image' }, 
+        { id: 1, src: "/photos/103.mp4", span: "1x1", type: 'video' }, 
         { id: 2, src: "/photos/2.jpg", span: "1x1", type: 'image' }, 
         { id: 3, src: "/photos/3.jpg", span: "1x1", type: 'image' }, 
         
