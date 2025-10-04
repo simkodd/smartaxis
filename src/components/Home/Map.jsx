@@ -32,7 +32,7 @@ function Map() {
                             src="/photos/mail.svg"
                             alt=""
                             className=' size-9 lg:size-11 border-b-1 border-blue p-1' />
-                        <a href="mailto:info@seninsite.com?subject=İletişim&body=Hello," className='text-blue font-semibold text-[10px] md:text-sm lg:text-base'>ContactUs@SmartAxis.net</a>
+                        <a href="mailto:ContactUs@SmartAxis.net?subject=İletişim&body=Hello," className='text-blue font-semibold text-[10px] md:text-sm lg:text-base'>ContactUs@SmartAxis.net</a>
                     </div>
 
                     <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>

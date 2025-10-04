@@ -28,7 +28,7 @@ function Contact() {
             </div>
             <div className='flex'>
               <img src="/photos/mail.svg" alt="call" className='size-5 lg:size-8' />
-              <a href="mailto:info@seninsite.com?subject=İletişim&body=Hello," className=' pl-2 lg:text-lg'>ContactUs@SmartAxis.net</a>
+              <a href="mailto:ContactUs@SmartAxis.net?subject=İletişim&body=Hello," className=' pl-2 lg:text-lg'>ContactUs@SmartAxis.net</a>
             </div>
             <div className='flex'>
               <img src="/photos/loc.svg" alt="call" className='size-5 lg:size-8' />
