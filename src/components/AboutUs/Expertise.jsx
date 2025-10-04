@@ -20,7 +20,7 @@ const { ref, inView } = useInView({
             <div ref={ref} className={`w-1/2 bg-[#72A93E] size-104 lg:h-auto ${inView ? motionClassL :'opacity-0'}`}>
                 <div className='text-white md:p-10 p-7'>
                     <p className='font-extrabold md:text-2xl text-xl/10 lg:text-3xl md:tracking-wider'><span className='border-blue border-b-1 pb-2'>Ou</span>r Expertise</p>
-                    <p className='opacity-50 font-semibold text-[10px]/3 lg:text-sm mt-5'>We redefine excellence in refurbished technology. By meticulously controlling every step, from sourcing to support, we deliver trusted value to all clients. Our expertise is built on four core pillars:</p>
+                    <p className='opacity-50 font-semibold text-[10px]/3 lg:text-sm sm:mt-5 '>We redefine excellence in refurbished technology. By meticulously controlling every step, from sourcing to support, we deliver trusted value to all clients. Our expertise is built on four core pillars:</p>
                 </div>
                 <div className='grid grid-cols-2 grid-rows-2 md:pl-10 gap-3 md:pr-5 px-7'> 
                     <div className='bg-blue md:p-5 lg:p-10 p-2 text-center flex flex-col items-center hover:scale-110 duration-500 hover:shadow-[0_0_27px_2px_rgba(238,239,239,0.9)]'>
