@@ -53,12 +53,7 @@ function Happy() {
     return (
         <div className='bg-[#72A93E] h-fit mt-30'>
 
-            <div className='relative w-full'>
-                <img
-                    src="./src/assets/photos/quo.svg "
-                    alt=""
-                    className='absolute top-35 left-1/2 -translate-x-1/2 -translate-y-1/2' />
-            </div>
+            
 
             <div className='text-white text-center'>
                 <h1 ref={ref} className={`font-bold text-3xl lg:text-4xl tracking-wider text-shadow-lg pt-28 ${inView ? motionClassT : 'opacity-0'}`}>Happy Customers</h1>
