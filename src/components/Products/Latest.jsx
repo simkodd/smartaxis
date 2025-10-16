@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 function Latest() {
     const { ref, inView } = useInView({
         triggerOnce: false,
-        threshold: 0.2,
+        threshold: 0.3,
     })
     const motionClassR = "motion-preset-slide-right motion-duration-3000";
     const motionClassL = "motion-preset-slide-left motion-duration-3000";

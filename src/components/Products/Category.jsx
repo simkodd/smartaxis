@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 function Category() {
 const { ref, inView } = useInView({
         triggerOnce: false,
-        threshold: 0.2,
+        threshold: 0.3,
     })
     const motionClassR = "motion-preset-slide-right motion-duration-3000";
     const motionClassL = "motion-preset-slide-left motion-duration-3000";
@@ -15,9 +15,9 @@ const { ref, inView } = useInView({
 
 
   return (
-    <div className='h-fit'>
+    <div ref={ref} className='h-fit'>
         <div>
-            <p ref={ref} className={`font-semibold md:text-2xl text-xl md:tracking-wider text-green m-10 ${inView ? motionClassT : 'opacity-0'}`}><span className='border-blue border-b-1 pb-2'>Our</span> Product Categories</p>
+            <p className={`font-semibold md:text-2xl text-xl md:tracking-wider text-green m-10 ${inView ? motionClassT : 'opacity-0'}`}><span className='border-blue border-b-1 pb-2'>Our</span> Product Categories</p>
         </div>
         <div className='flex flex-wrap gap-3 items-senter justify-center'>
             <div className={`hover:scale-105 duration-500 lg:gap-y-2 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl w-40 h-35 lg:w-50 lg:h-45 ${inView ? motionClassR : 'opacity-0'}`}>
@@ -26,7 +26,7 @@ const { ref, inView } = useInView({
                 className='size-17 lg:size-20' />
                 <p className='font-semibold text-blue '>Laptop</p>
             </div>
-            <div ref={ref} className={`hover:scale-105 duration-500 lg:gap-y-2 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 lg:w-50 lg:h-45 ${inView ? motionClassL : 'opacity-0'}`}>
+            <div className={`hover:scale-105 duration-500 lg:gap-y-2 flex flex-col items-center p-7 text-center shadow-[0_0_15px_2px_rgba(2,57,122,0.6)] rounded-2xl  w-40 h-35 lg:w-50 lg:h-45 ${inView ? motionClassL : 'opacity-0'}`}>
                 <img src="/photos/aio.svg" 
                 alt="Laptop" 
                 className='size-17 lg:size-20' />

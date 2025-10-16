@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 function Map() {
     const { ref, inView } = useInView({
         triggerOnce: false,
-        threshold: 0.2,
+        threshold: 0.3,
     })
     const motionClassR = "motion-preset-slide-right motion-duration-2000";
     const motionClassL = "motion-preset-slide-left motion-duration-2000";
@@ -15,27 +15,27 @@ function Map() {
 
 
     return (
-        <div className='h-fit text-center'>
+        <div ref={ref} className='h-fit text-center'>
             <div>
-                <h1 ref={ref} className={`text-green text-3xl lg:text-4xl tracking-wider text-shadow-lg mt-20 lg:mb-10 ${inView ? motionClassT : 'opacity-0'}`}>Let’s Work Together! </h1>
+                <h1 className={`text-green text-3xl lg:text-4xl tracking-wider text-shadow-lg mt-20 lg:mb-10 ${inView ? motionClassT : 'opacity-0'}`}>Let’s Work Together! </h1>
                 <div className='sm:flex space-y-4 items-start justify-center gap-x-4 md:gap-x-20 mt-6 md:mt-2 px-2'>
-                    <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
+                    <div className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
                         <img
                             src="/photos/call.svg"
                             alt=""
                             className=' size-9 lg:size-11 border-b-1 border-blue p-1' />
-                        <a href="tel:+971585026002" className='text-blue font-semibold text-[10px] md:text-sm lg:text-base'>+971 58 502 6002</a>
+                        <a href="tel:+971585026002" className='text-blue font-semibold text-[10px] md:text-sm lg:text-base border-b border-blue active:scale-97 duration-300'>+971 58 502 6002</a>
                     </div>
 
-                    <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
+                    <div className={`flex flex-col items-center gap-y-2 ${inView ? motionClassR : 'opacity-0'}`}>
                         <img
                             src="/photos/mail.svg"
                             alt=""
                             className=' size-9 lg:size-11 border-b-1 border-blue p-1' />
-                        <a href="mailto:ContactUs@SmartAxis.net?subject=İletişim&body=Hello," className='text-blue font-semibold text-[10px] md:text-sm lg:text-base'>ContactUs@SmartAxis.net</a>
+                        <a href="mailto:ContactUs@SmartAxis.net?subject=İletişim&body=Hello," className='text-blue font-semibold text-[10px] md:text-sm lg:text-base  border-b border-blue  active:scale-97 duration-300'>ContactUs@SmartAxis.net</a>
                     </div>
 
-                    <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
+                    <div className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
                         <img
                             src="/photos/loc.svg"
                             alt=""
@@ -43,7 +43,7 @@ function Map() {
                         <h1 className='text-blue font-semibold text-[10px] md:text-sm lg:text-base w-30 md:w-40'>N 4 ,Industrial Area 2 ,Sharjah ,UAE</h1>
                     </div>
 
-                    <div ref={ref} className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
+                    <div className={`flex flex-col items-center gap-y-2 ${inView ? motionClassL : 'opacity-0'}`}>
                         <img
                             src="/photos/time.svg"
                             alt=""
@@ -61,7 +61,7 @@ function Map() {
                 className='border-white border-2 rounded-xl mt-4 shadow-[0_0_15px_2px_rgba(2,57,122,0.8)]' 
                 allowFullScreen
                 loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     )
