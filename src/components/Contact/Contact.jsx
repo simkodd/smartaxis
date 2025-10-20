@@ -15,8 +15,8 @@ function Contact() {
 
 
   return (
-    <div ref={ref} className='h-screen'>
-      <div className='md:flex w-full'>
+    <div className='h-screen'>
+      <div ref={ref} className='md:flex w-full'>
         <div className={`md:w-1/3 m-10 mt-20 ${inView ? motionClassR : 'opacity-0'}`}>
           <p className='text-green lg:text-lg'>Have A Question?</p>
           <p className='font-semibold md:text-2xl text-xl lg:text-3xl  text-green'><span className='border-blue border-b-1 pb-2'>We'</span>re Here To Help</p>
@@ -37,7 +37,7 @@ function Contact() {
           </div>
         </div>
 
-        <div  className={`md:w-2/3 m-8 mt-20 h-110 lg:h-140 md:h-auto ${inView ? motionClassL : 'opacity-0'}`}>
+        <div ref={ref}  className={`md:w-2/3 m-8 mt-20 h-110 lg:h-140 md:h-auto ${inView ? motionClassL : 'opacity-0'}`}>
           <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14426.653512731556!2d55.390083608251274!3d25.315511451262324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59535603d465%3A0xb19556534ba2680!2sSmart%20Axis%20Computer!5e0!3m2!1sen!2sqa!4v1759598533902!5m2!1sen!2sqa" 
            

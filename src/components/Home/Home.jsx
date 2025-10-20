@@ -18,10 +18,10 @@ function Home() {
 
     return (
         <>
-            <div ref={ref} id='home' className='md:flex  my-3 ml-10 '>
+            <div id='home' className='md:flex  my-3 ml-10 '>
 
                 <div className={`mt-10 pt-10 md:p-0 ${inView ? motionClassR : 'opacity-0'} relative z-10`}>
-                    <p className='text-blue lg:text-4xl md:text-2xl text-3xl font-regular text-shadow-2xs/9 md:mt-25 lg:w-110 w-85 md:ml-6'>
+                    <p ref={ref} className='text-blue lg:text-4xl md:text-2xl text-3xl font-regular text-shadow-2xs/9 md:mt-25 lg:w-110 w-85 md:ml-6'>
                         <span className=' uppercase text-green lg:text-lg text-xs motion-preset-typewriter motion-duration-3000'>#1 on the market</span>
                         Your trusted source for <span className='font-semibold'>Premium Laptops</span>, ensuring you have the right tools to build your <span className='font-semibold'>Future</span>
                     </p>
